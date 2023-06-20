@@ -1,0 +1,632 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,200;0,400;1,600&family=Libre+Baskerville:wght@400;700&family=Montserrat&family=Orbitron:wght@400;600;900&family=Teko&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,200;0,400;1,600&family=Libre+Baskerville:wght@400;700&family=Montserrat&family=Orbitron:wght@400;600;700;900&family=Teko&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,200;0,400;1,600&family=Libre+Baskerville:wght@400;700&family=Montserrat&family=Orbitron:wght@400;600;700;900&family=Teko:wght@400;500;600;700&display=swap");
+/* _______________________________import___________________________ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*______________________________ HEADER y button________________________________ */
+
+.TUNE {
+  color: #f09e05;
+}
+header {
+  font-family: "Orbitron", sans-serif;
+  font-size: x-large;
+}
+
+nav ul li .a:hover {
+  color: #fffdfc;
+  font-size: 25px;
+}
+.a {
+  text-decoration: none;
+  color: #ffa500;
+  letter-spacing: 5px;
+}
+nav ul li .a { 
+  margin-left:50px ;
+  margin-right:50px;
+}
+.my-navbar {
+  font-family: "Orbitron", sans-serif;
+}
+.my-button {
+  background-color: #000000;
+}
+
+@media screen  and (min-width:200px) and (max-width:1024px){
+
+  nav ul li .a { 
+    margin-left:0 ;
+    margin-right:0;
+  }
+}
+
+/*_____________________________ BODY _____________________________________ */
+body {
+  background-color: #222222;
+}
+
+.i_font { 
+  font-size: 20px;
+}
+.h_auto{
+  height: auto;
+  width: 18rem;
+}
+/* ________________________________MAIN INDEX______________________________________ */
+main {
+  background-color: #141313;
+}
+
+.main__index {
+  background-image: url(https://cdnb.artstation.com/p/assets/images/images/027/204/833/large/justin-wentz-overhex-hangar-copy.jpg?1590882414);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: auto;
+}
+
+h1 h2 .col-sm-7 {
+  font-family: "Orbitron", sans-serif;
+}
+/*__________________________________ARTICLE UNO iNDEX_______________________ ______*/
+.viaje__fecha {
+  background-color: #111010;
+  font-family: "Orbitron", sans-serif;
+  
+}
+.form-check-label {
+  font-size: 30px;
+}
+.div_h1 {
+  background: rgb(20,19,16);
+background: linear-gradient(90deg, rgba(20,19,16,0.04982503255208337) 0%,  rgb(255, 165, 0) 100%);
+
+}
+.h1__viaje {
+  color:  #141313;
+  font-weight: bold;
+}
+
+section article {
+  font-family: "Orbitron", sans-serif;
+  color: #ffa500;
+  text-align: center;
+}
+/* _______ ___________________________ARTICLE DOS INDEX __________________________________________ */
+.fondo__articulo {  background-image: url(https://cdna.artstation.com/p/assets/images/images/027/204/838/large/justin-wentz-takeoff-final-v02-copy.jpg?1590880574);
+}
+.article__2 {
+  height: 70vh;
+  font-family: "Orbitron", sans-serif; 
+
+}
+/* _____________________________________ARTICLE3 INDEX_______________________________________________________ */
+
+
+.entidad{
+  height: 20vh;
+  color: blanchedalmond;
+  background-color: #00000096;
+  position: relative;
+  margin-left: 40%;
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+  overflow: hidden;
+  border-radius: 50px 0 0 50px;
+  
+}
+.registrate {
+  margin: 10px;
+  font-family: "Orbitron", sans-serif;
+  background-color: #ffa500;
+  text-align: center;
+  border-radius: 50px 1px;
+ 
+}
+@media only screen and (min-width: 200px) and (max-width: 1198px) {
+  .viaje__fecha {
+    background-color: #1d1d1de3;
+  }
+  .registrate {
+    background-color: #ffa600;
+    overflow:visible;
+    height: auto;
+
+    
+  }
+.entidad{ 
+  padding: 4px;
+  overflow: auto;
+  position:static;
+margin: auto;
+border-radius: 50px 50px ;
+}
+.fondo__articulo {  background-image: url(https://cdna.artstation.com/p/assets/images/images/027/204/838/large/justin-wentz-takeoff-final-v02-copy.jpg?1590880574);
+  background-position: left;
+}
+.article__2 {
+  height: 70vh;
+  font-family: "Orbitron", sans-serif; 
+text-align: center;
+}
+}
+
+@media screen and (min-width: 1200px) and (max-width: 2000px) {
+  .registrate {
+    width: 20vw;
+    height: 70vh;
+  }
+
+
+}
+
+/* _________________________________________ pagina SErvic_________________________________ */
+.main__servicios { background-image: url(https://cdnb.artstation.com/p/assets/images/images/045/607/005/large/vadim-sadovski-b35.jpg?1643124860);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+.article_servi{ 
+  margin-top: 15em;
+}
+
+.container-lg  {text-align: center;
+font-family: "Orbitron", sans-serif;
+}
+
+.my-columna { text-align: center;
+  font-family: "Orbitron", sans-serif;
+}
+
+.my-card { width: auto;
+  display: flex;
+  margin-top: 15rem;
+  margin-bottom:20rem ;      
+}
+
+.color__contraste { 
+  color: #d78f08;
+}
+.fondo__black { 
+  background-color: #000000;
+}
+
+.text-focus-in {
+	animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+ @keyframes text-focus-in {
+  0% {
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+
+.mensaje_m { 
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+  overflow: auto;
+  border-radius: 0px 70px 0 70px;
+  font-size: 25px;
+background-color:#ffa500;
+;
+}
+.hover:hover { 
+  transform: scale(1.4);
+}
+
+/* error 404 */
+
+.cuatro { 
+  font-family: "Orbitron", sans-serif;
+  font-size: 5em;
+  color: orange;
+}
+.ERROR{ 
+  width: auto;
+  height: 80vh;
+background-image: url(../asset/imag/404.jpg);
+background-repeat: no-repeat;
+background-position:;
+background-size: cover;
+} 
+
+
+/*_____________________________________ FOOTER__________________________________________________*/
+
+footer {
+  height: 40vh;
+  background-color: #141313;
+  font-family: "Teko", sans-serif;
+}
+
+.copy {
+  color: #ffa500;
+  font-size: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 16px;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+footer i {
+  margin-right: 10px;
+}
+
+footer a {
+  color: #333;
+  text-decoration: none;
+}
+h3 p .TN {
+  color: #ffa500;
+  font-family: "Orbitron", sans-serif;
+}
+.row {
+  color: #ffa500;
+  font-family: "Orbitron", sans-serif;
+}
+footer a:hover {
+  color: #000000;
+  font-size: 30px;
+}
+/* _______________ PAGINA_info______________________________________________*/
+.puedes { 
+  background-color: #141313;
+  padding: 20px;
+}
+
+.my-conteiner__info{ 
+width: auto;
+height: auto;
+}
+.conteiner__mapa { 
+  background-color: #242222b1;
+}
+.my-card__info { 
+  border-radius: 50px 1px;
+  background-color: #ffa500;
+background-repeat: no-repeat ;
+}
+.my-card__vuelo { 
+  border-radius: 50px 1px;
+
+background-repeat: no-repeat ;
+padding: 10px;
+}
+.tamaño__icono { font-size: 25px;}
+.focus-in-expand {
+	animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @keyframes focus-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+.sombra__fondo { 
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+}
+
+.sombra__fondo2 { 
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.596);
+
+}
+
+/* _______________imagen hover de informacion__________________ */
+.video-contenedor {
+  position: relative;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+
+.video-contenedor iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.grid {
+	position: relative;
+	clear: both;
+	margin: 0 auto;
+	padding: 1em 0 4em;
+	max-width: 1000px;
+	list-style: none;
+	text-align: center;
+}
+
+.grid figure {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	margin: 10px 1%;
+	min-width: 320px;
+	max-width: 480px;
+	max-height: 360px;
+	width: 48%;
+	height: auto;
+	background: #d6cb04;
+	text-align: center;
+	cursor: pointer;
+}
+
+.grid figure img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	max-width: 100%;
+	opacity: 0.8;
+}
+
+.grid figure figcaption {
+	padding: 2em;
+	color: hwb(48 2% 4%);
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+	pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.grid figure figcaption > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+
+.grid figure h2 {
+	word-spacing: -0.15em;
+	font-weight: 300;
+}
+
+.grid figure h2 span {
+	font-weight: 800;
+}
+
+.grid figure h2,
+.grid figure p {
+	margin: 0;
+}
+
+.grid figure p {
+	letter-spacing: 1px;
+	font-size: 68.5%;
+}
+
+
+
+figure.effect-julia {
+	background: #2f3238;
+}
+
+figure.effect-julia img {
+	max-width: none;
+	height: 400px;
+	-webkit-transition: opacity 1s, -webkit-transform 1s;
+	transition: opacity 1s, transform 1s;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+figure.effect-julia figcaption {
+	text-align: left;
+}
+
+figure.effect-julia h2 {
+	position: relative;
+	padding: 0.5em 0;
+}
+
+figure.effect-julia p {
+	display: inline-block;
+	margin: 0 0 0.25em;
+	padding: 0.4em 1em;
+	background: rgba(239, 223, 0, 0.9);
+	color: #1f1f1f;
+	text-transform: none;
+	font-weight: 500;
+	font-size: 75%;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(-360px,0,0);
+	transform: translate3d(-360px,0,0);
+}
+
+figure.effect-julia p:first-child {
+	-webkit-transition-delay: 0.15s;
+	transition-delay: 0.15s;
+}
+
+figure.effect-julia p:nth-of-type(2) {
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+
+figure.effect-julia p:nth-of-type(3) {
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s;
+}
+
+figure.effect-julia:hover p:first-child {
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+
+figure.effect-julia:hover p:nth-of-type(2) {
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s;
+}
+
+figure.effect-julia:hover p:nth-of-type(3) {
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+
+figure.effect-julia:hover img {
+	opacity: 0.4;
+	-webkit-transform: scale3d(1.1,1.1,1);
+	transform: scale3d(1.1,1.1,1);
+}
+
+figure.effect-julia:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+/* ______________________________________________PAGINA DE SEGURIDAD ______________________________________________ */
+.fondo_seguridad { 
+  background-image: url(../asset/imag/metal2.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+
+.col-lg-6 {
+  flex-direction: row;
+  align-items: center;
+}
+
+.flex_div 
+{ display: none;
+flex-direction: none;}
+
+.my-card__seguro { 
+  background-image: linear-gradient(  to bottom ,  #1d1d1dd4,  #000000e9);
+}
+
+.globo-conversacion {
+  background-color: #090909;
+  border-radius: 10px;
+  color: #000;
+  padding: 10px;
+  position: relative;
+  max-width: 250px;
+  font-size: 16px;
+  font-family: "Orbitron", sans-serif;
+  margin-left: 55vw;
+
+}
+
+.globo-conversacion::before {
+  content: '';
+  position: absolute;
+  border-top: 20px solid #000000;
+  border-left: 10px solid transparent;
+  border-right: 20px solid transparent;
+  bottom: -20px;
+  left: 10px;
+}
+
+.globo-conversacion::after {
+  content: '';
+  position: absolute;
+  border-top: 20px solid #000000;
+  border-left: 10px solid transparent;
+  border-right: 20px solid transparent;
+  bottom: -18px;
+  left: 10px;
+}
+
+
+/* vuelo */
+.main_vuelo { 
+  background: linear-gradient(180deg, rgba(57, 56, 56, 0.05) 0%, rgb(4, 4, 4) 100%);
+
+}
+
+/*________________________________________ ____ MEDIA QUERY _______________________________ */
+
+@media screen and (max-width: 1370px) {
+  .a {
+    letter-spacing: 0;
+  }
+}
+
+
+@media screen  and (min-width:200px) and (max-width:1024px){
+
+  .main__index {
+    background-image: url( https://cdna.artstation.com/p/assets/images/images/000/678/574/large/jessica-rossier-concept-art-leaving-the-world-jessica-rossier.jpg?1443929515);
+  }
+  .viaje__fecha { 
+    background-image: linear-gradient(  to bottom ,  #1d1d1d76,  #000000ca);
+  }
+
+.my-card { height: 70vh;
+overflow:auto
+}
+
+
+}
+
+@media only screen and (min-width: 200px) and (max-width: 1198px) {
+  .viaje__fecha {
+    background-color: #1d1d1de3;
+  }
+
+
+}
+
+@media screen and (min-width: 1200px) and (max-width: 2000px) {
+  .registrate {
+    width: 20vw;
+    height: 70vh;
+  }
+}
+
+/* ________________ MEDIA QUERY SERVICIOS ________________ */
+@media screen and (min-width:200px) and (max-width:540px) {
+  .flex__div 
+  { display: flex;
+  flex-direction: column;}
+
+  
+}
