@@ -96,30 +96,51 @@ const btnNeptuno = document.getElementById('btnNeptuno');
 // Asignar el evento de clic a cada botón
 btnJupiter.addEventListener('click', ()=> {
   guardarReserva('Jupiter', '$5000.000');
-  alert('Reserva de pasaje a Jupiter realizada correctamente.');
+/*   alert('Reserva de pasaje a Jupiter realizada correctamente.'); */
+swal('Reserva de pasaje a Jupiter realizada correctamente.', {
+  icon: 'success',
+});
 });
 
 btnMarte.addEventListener('click', ()=> {
   guardarReserva('Marte', '$8000.000');
-  alert('Reserva de pasaje a Marte realizada correctamente.');
+ /*  alert('Reserva de pasaje a Marte realizada correctamente.'); */
+ swal('Reserva de pasaje a Marte realizada correctamente.', {
+  icon: 'success',
+});
 });
 btnUrano.addEventListener('click', ()=> {
   guardarReserva('URANO', '$8000.000');
-  alert('Reserva de pasaje a Urano realizada correctamente.');
+/*   alert('Reserva de pasaje a Urano realizada correctamente.'); */
+swal('Reserva de pasaje a Urano realizada correctamente.', {
+  icon: 'success',
+});
 });
 btnKFA.addEventListener('click', ()=> {
-  guardarReserva('Ciudad Espacial', '$8000.000');
-  alert('Reserva de pasaje a KfA-ciudad espacial realizada correctamente.');
+  guardarReserva('Ciudad Espacial', '$5000.000');
+ /*  alert('Reserva de pasaje a KfA-ciudad espacial realizada correctamente.'); */
+ swal('Reserva de pasaje a KFA-ciudad espacial realizada correctamente.', {
+  icon: 'success',
+});
 });
 btnMercurio.addEventListener('click', ()=> {
-  guardarReserva('Mercurio', '$8000.000');
-  alert('Reserva de pasaje a Mercurio realizada correctamente.');
+  guardarReserva('Mercurio', '$5000.000');
+/*   alert('Reserva de pasaje a Mercurio realizada correctamente.'); */
+swal('Reserva de pasaje a Mercurio realizada correctamente.', {
+  icon: 'success',
+});
 });
 btnSaturno.addEventListener('click', ()=> {
-  guardarReserva('Saturno', '$8000.000');
-  alert('Reserva de pasaje a Saturno realizada correctamente.');
+  guardarReserva('Saturno', '$5000.000');
+/*   alert('Reserva de pasaje a Saturno realizada correctamente.'); */
+swal('Reserva de pasaje a Saturno realizada correctamente.', {
+  icon: 'success',
+});
 });
 btnNeptuno.addEventListener('click', ()=> {
-  guardarReserva('Neptuno', '$8000.000');
-  alert('Reserva de pasaje a Neptuno realizada correctamente.');
+  guardarReserva('Neptuno', '$5000.000');
+  /* alert('Reserva de pasaje a Neptuno realizada correctamente.'); */
+  swal('Reserva de pasaje a Neptuno realizada correctamente.', {
+    icon: 'success',
+  });
 });

@@ -30,13 +30,3 @@ localStorage.setItem("datos", datosJSON);
 
 // Mostrar una alerta de éxito
 alert("Los datos se han guardado exitosamente... bienvenido .");
-
-
-
-
-
-
-
-
-
-
