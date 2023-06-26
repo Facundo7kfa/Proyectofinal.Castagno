@@ -104,53 +104,16 @@ section article {
   color: #ffa500;
   text-align: center;
 }
-/* _______ ___________________________ARTICLE DOS INDEX __________________________________________ */
-.fondo__articulo {  background-image: url(https://cdna.artstation.com/p/assets/images/images/027/204/838/large/justin-wentz-takeoff-final-v02-copy.jpg?1590880574);
-}
-.article__2 {
-  height: 70vh;
-  font-family: "Orbitron", sans-serif; 
-
-}
-
-
-/* _________________________________________ pagina SErvic_________________________________ */
 
 .container-lg  {text-align: center;
 font-family: "Orbitron", sans-serif;
 }
 
-.my-columna { text-align: center;
-  font-family: "Orbitron", sans-serif;
-}
 
-.my-card { width: auto;
-  display: flex;
-  margin-top: 15rem;
-  margin-bottom:20rem ;      
-}
-
-.color__contraste { 
-  color: #d78f08;
-}
 .fondo__black { 
   background-color: #000000;
 }
 
-.text-focus-in {
-	animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-}
-
- @keyframes text-focus-in {
-  0% {
-    filter: blur(12px);
-    opacity: 0;
-  }
-  100% {
-    filter: blur(0px);
-    opacity: 1;
-  }
-}
 
 
 .mensaje_m { 
@@ -217,46 +180,7 @@ footer a:hover {
   color: #000000;
   font-size: 30px;
 }
-/* _______________ PAGINA_info______________________________________________*/
-.puedes { 
-  background-color: #141313;
-  padding: 20px;
-}
 
-.my-conteiner__info{ 
-width: auto;
-height: auto;
-}
-.conteiner__mapa { 
-  background-color: #242222b1;
-}
-.my-card__info { 
-  border-radius: 50px 1px;
-  background-color: #ffa500;
-background-repeat: no-repeat ;
-}
-.my-card__vuelo { 
-  border-radius: 50px 1px;
-
-background-repeat: no-repeat ;
-padding: 10px;
-}
-.tamaño__icono { font-size: 25px;}
-.focus-in-expand {
-	animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-
- @keyframes focus-in-expand {
-  0% {
-    letter-spacing: -0.5em;
-    filter: blur(12px);
-    opacity: 0;
-  }
-  100% {
-    filter: blur(0px);
-    opacity: 1;
-  }
-}
 .sombra__fondo { 
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
 }
@@ -277,51 +201,3 @@ padding: 10px;
 
 }
 
-/*________________________________________ ____ MEDIA QUERY _______________________________ */
-
-@media screen and (max-width: 1370px) {
-  .a {
-    letter-spacing: 0;
-  }
-}
-
-
-@media screen  and (min-width:200px) and (max-width:1024px){
-
-  .main__index {
-    background-image: url( https://cdna.artstation.com/p/assets/images/images/000/678/574/large/jessica-rossier-concept-art-leaving-the-world-jessica-rossier.jpg?1443929515);
-  }
-  .viaje__fecha { 
-    background-image: linear-gradient(  to bottom ,  #1d1d1d76,  #000000ca);
-  }
-
-.my-card { height: 70vh;
-overflow:auto
-}
-
-
-}
-
-@media only screen and (min-width: 200px) and (max-width: 1198px) {
-  .viaje__fecha {
-    background-color: #1d1d1de3;
-  }
-
-
-}
-
-@media screen and (min-width: 1200px) and (max-width: 2000px) {
-  .registrate {
-    width: 20vw;
-    height: 70vh;
-  }
-}
-
-/* ________________ MEDIA QUERY SERVICIOS ________________ */
-@media screen and (min-width:200px) and (max-width:540px) {
-  .flex__div 
-  { display: flex;
-  flex-direction: column;}
-
-  
-}

@@ -1,50 +1,37 @@
-const jupiter = {
-    nombre: "Jupiter",
-    bitcoin: 3,
-    precio: 5000000
-  };
+class planeta {
+  constructor(nombre,bit,precio,Sidescuento){
+      this.nombre = nombre;
+      this.bit = bit;
+      this.precio = precio;
+      this.Sidescuento = Sidescuento;
+          }
+        descuento(){ 
 
-  const marte = {
-    nombre: "Marte",
-    bitcoin: 4,
-    precio: 8000000
-  };
+        if(this.Sidescuento) { 
 
-  const urano = {
-    nombre: "Urano",
-    bitcoin: 3,
-    precio: 8000000
-  };
+          this.precio = this.precio - 1300000;
+          }
+    }
+}
 
-  const ciudadEspacial = {
-    nombre: "Ciudad Espacial kfa.77",
-    bitcoin: 3,
-    precio: 5000000
-  };
+let jupiter = new planeta ("Jupiter",3,5000000,true);
 
-  const venus = {
-    nombre: "Venus",
-    mensajeMilitar: "Soy personal militar"
-  };
+let marte = new planeta ("Marte",4,800000,false);
 
-  const mercurio = {
-    nombre: "Mercurio",
-    bitcoin: 3,
-    precio: 5000000
-  };
+let ciudadEspacial = new planeta ("Ciudad Espaical kfa.77",3,500000,false)
 
-  const saturno = {
-    nombre: "Saturno",
-    bitcoin: 3,
-    precio: 5000000
-  };
+let urano = new planeta ("Urano",3,8000000,false)
 
-  const neptuno = {
-    nombre: "Neptuno",
-    bitcoin: 3,
-    precio: 5000000
-  };
+let venus = new planeta ("Venus",3,5000000,true)
 
+let mercurio = new planeta ("Mercurio",3,5000000,false)
+
+let saturno = new planeta ("Saturno",3,5000000,false);
+
+let neptuno = new planeta ("Neptuno",3,5000000,true)
+
+ 
   //  array de tarjetas
   const tarjetas = [jupiter, marte, urano, ciudadEspacial, venus, mercurio, saturno, neptuno];
+
 
