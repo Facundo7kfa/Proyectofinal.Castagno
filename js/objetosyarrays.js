@@ -32,6 +32,9 @@ let neptuno = new planeta ("Neptuno",3,5000000,true)
 
  
   //  array de tarjetas
+  
   const tarjetas = [jupiter, marte, urano, ciudadEspacial, venus, mercurio, saturno, neptuno];
 
+const encontrar = tarjetas.find((precio) =>precio.precio=== 5000000);
 
+console.log(encontrar)
