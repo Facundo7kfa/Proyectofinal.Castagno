@@ -4,37 +4,50 @@ class planeta {
       this.bit = bit;
       this.precio = precio;
       this.Sidescuento = Sidescuento;
+      this.vendido = false;
           }
-        descuento(){ 
-
-        if(this.Sidescuento) { 
-
-          this.precio = this.precio - 1300000;
-          }
-    }
+       vendido(){
+        this.vendido = true;
+       }
 }
 
-let jupiter = new planeta ("Jupiter",3,5000000,true);
+let jupiter = new planeta ("Jupiter",3,5000000);
 
-let marte = new planeta ("Marte",4,800000,false);
+let marte = new planeta ("Marte",4,800000);
 
-let ciudadEspacial = new planeta ("Ciudad Espaical kfa.77",3,500000,false)
+let ciudadEspacial = new planeta ("Ciudad Espaical kfa.77",3,500000)
 
-let urano = new planeta ("Urano",3,8000000,false)
+let urano = new planeta ("Urano",3,8000000)
 
-let venus = new planeta ("Venus",3,5000000,true)
+let venus = new planeta ("Venus",3,5000000)
 
-let mercurio = new planeta ("Mercurio",3,5000000,false)
+let mercurio = new planeta ("Mercurio",3,5000000)
 
-let saturno = new planeta ("Saturno",3,5000000,false);
+let saturno = new planeta ("Saturno",3,5000000);
 
-let neptuno = new planeta ("Neptuno",3,5000000,true)
+let neptuno = new planeta ("Neptuno",3,5000000)
 
  
   //  array de tarjetas
-  
+
   const tarjetas = [jupiter, marte, urano, ciudadEspacial, venus, mercurio, saturno, neptuno];
 
-const encontrar = tarjetas.find((precio) =>precio.precio=== 5000000);
 
-console.log(encontrar)
+//////////mesi
+
+/*  const precioNavidad = tarjetas.map(item => {
+  return {
+    nombre: item.nombre ,
+    bit: item.bit,
+    precio: item.precio - item.precio *0.32,
+  }
+});
+
+console.log(precioNavidad); */
+
+
+
+Object.keys(jupiter).forEach(function (key) {
+  let value = jupiter[key];
+  console.log(key,value )
+});

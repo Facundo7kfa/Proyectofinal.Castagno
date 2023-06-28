@@ -1,3 +1,41 @@
+
+class planeta {
+  constructor(nombre,bit,precio,Sidescuento){
+      this.nombre = nombre;
+      this.bit = bit;
+      this.precio = precio;
+      this.Sidescuento = Sidescuento;
+      this.vendido = false;
+          }
+       vendido(){
+        this.vendido = true;
+       }
+}
+
+let jupiter = new planeta ("Jupiter",3,5000000);
+
+let marte = new planeta ("Marte",4,800000);
+
+let ciudadEspacial = new planeta ("Ciudad Espaical kfa.77",3,500000)
+
+let urano = new planeta ("Urano",3,8000000)
+
+let venus = new planeta ("Venus",3,5000000)
+
+let mercurio = new planeta ("Mercurio",3,5000000)
+
+let saturno = new planeta ("Saturno",3,5000000);
+
+let neptuno = new planeta ("Neptuno",3,5000000)
+
+ 
+  //  array de tarjetas
+
+  const tarjetas = [jupiter, marte, urano, ciudadEspacial, venus, mercurio, saturno, neptuno];
+
+
+/////////////////////////////////////////////////////////////////////
+
 document.getElementById("Venus").addEventListener("click",  ()=> {
     // Comprobar si el usuario está autorizado
     let usuarioAutorizado = false; // Cambia esto a true si el usuario está autorizado
@@ -95,7 +133,7 @@ const btnNeptuno = document.getElementById('btnNeptuno');
 
 // Asignar el evento de clic a cada botón
 btnJupiter.addEventListener('click', ()=> {
-  guardarReserva('Jupiter', '$5000.000');
+  guardarReserva(jupiter);
 
 swal('Reserva de pasaje a Jupiter realizada correctamente.', {
   icon: 'success',
@@ -103,44 +141,51 @@ swal('Reserva de pasaje a Jupiter realizada correctamente.', {
 });
 
 btnMarte.addEventListener('click', ()=> {
-  guardarReserva('Marte', '$8000.000');
+  guardarReserva(marte);
 
  swal('Reserva de pasaje a Marte realizada correctamente.', {
   icon: 'success',
 });
 });
 btnUrano.addEventListener('click', ()=> {
-  guardarReserva('URANO', '$8000.000');
+  guardarReserva(urano);
 
 swal('Reserva de pasaje a Urano realizada correctamente.', {
   icon: 'success',
 });
 });
 btnKFA.addEventListener('click', ()=> {
-  guardarReserva('Ciudad Espacial', '$5000.000');
+  guardarReserva(ciudadEspacial);
  
  swal('Reserva de pasaje a KFA-ciudad espacial realizada correctamente.', {
   icon: 'success',
 });
 });
 btnMercurio.addEventListener('click', ()=> {
-  guardarReserva('Mercurio', '$5000.000');
+  guardarReserva(mercurio);
 
 swal('Reserva de pasaje a Mercurio realizada correctamente.', {
   icon: 'success',
 });
 });
 btnSaturno.addEventListener('click', ()=> {
-  guardarReserva('Saturno', '$5000.000');
+  guardarReserva(saturno);
 
 swal('Reserva de pasaje a Saturno realizada correctamente.', {
   icon: 'success',
 });
 });
 btnNeptuno.addEventListener('click', ()=> {
-  guardarReserva('Neptuno', '$5000.000');
+  guardarReserva(neptuno);
 
   swal('Reserva de pasaje a Neptuno realizada correctamente.', {
     icon: 'success',
   });
 });
+
+Object.keys(jupiter).forEach(function (key){
+  let value = jupiter[key];
+  console.log(key,value )
+});
+
+
